@@ -12,3 +12,7 @@ this file is with the suffix 'ent'.
 
 The program get the assembly files by their names (without the suffix) as arguments to the command line.
 
+The package contain a makefile to compile the poject by gcc compiler.
+The package also contain a run file named assembler.
+The package divided to modules by topicts (main, analize, function1, etc.)
+The package also contain header files that contain static tables, prototypes, libraries etc.
