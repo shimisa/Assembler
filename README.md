@@ -1,4 +1,4 @@
-# assembler_computing
+# assembler_compiler
 courework project - assembler compiler of defined assembly language
 
 This coursework project is a compailer of an imagination computer machine according to a define assembly language and it's addressing methods. The program take care of the translating process and not for the linking and loading. 
