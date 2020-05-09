@@ -3,6 +3,7 @@
 
 This coursework project is a compailer of an imagination computer machine according to a define assembly language and it's addressing methods.
 
+<br/>
 
 **The operations table:**  
 
@@ -26,6 +27,9 @@ This coursework project is a compailer of an imagination computer machine accord
 | stop |15| stop |
 
 
+<br/>
+
+
 
 **The addresing method table:**
 
@@ -38,10 +42,13 @@ This coursework project is a compailer of an imagination computer machine accord
 | 3 |direct register addresing| clr r1 OR  mov r1,*r2 |
 
 
+<br/>
 
 
  **The program take care of the translating process and not for the linking and loading.**
 
+
+<br/>
 
 
 ### The program get as an input files of assembly language with the suffix 'as' and return as an output 3 files for each assembly file: ###
@@ -55,6 +62,8 @@ this file is with the suffix 'ent'.
 3. *external file* that contain the labels that defined as externals and the appropriate address that they have been used in the asseembly program. this file is with the suffix 'ext'.
 
 The program get the assembly files by their names (without the suffix) as arguments to the command line.
+
+<br/>
 
 **The package contain:**
 - makefile to compile the poject by gcc compiler.
