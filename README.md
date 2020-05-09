@@ -37,10 +37,10 @@ This coursework project is a compailer of an imagination computer machine accord
 	
 | Addresing number | Addresing method | Example |
 |:--------------|---------------|---------------|
-| 0 |immediate addresing| mov #-1,r2 |
-| 1 |direct addresing| x: .data 23 OR dec x |
-| 2 |indirect register addresing| inc *r1 OR mov *r1,**r2 |
-| 3 |direct register addresing| clr r1 OR  mov r1,*r2 |
+| 0 |immediate addresing|   mov #-1,r2 |
+| 1 |direct addresing|   x: .data 23 OR dec x |
+| 2 |indirect register addresing|   inc *r1 OR mov *r1,**r2 |
+| 3 |direct register addresing|   clr r1 OR  mov r1,*r2 |
 
 
 <br/>
@@ -54,13 +54,13 @@ This coursework project is a compailer of an imagination computer machine accord
 
 ### The program get as an input files of assembly language with the suffix 'as' and return as an output 3 files for each assembly file: ###
 
-1. *object file* that contain the machine code translating to octal base with the appropriate memmory addres in decimal base.
+1. **object file** that contain the machine code translating to octal base with the appropriate memmory addres in decimal base.
 this file is with the suffix 'ob'.
 
-2. *enteranl file* that contain the labels that defined in the assemly text as an entry label with it's appropriate vlue in the labels table.
+2. **enteranl file** that contain the labels that defined in the assemly text as an entry label with it's appropriate vlue in the labels table.
 this file is with the suffix 'ent'.
 
-3. *external file* that contain the labels that defined as externals and the appropriate address that they have been used in the asseembly program. this file is with the suffix 'ext'.
+3. **external file** that contain the labels that defined as externals and the appropriate address that they have been used in the asseembly program. this file is with the suffix 'ext'.
 
 The program get the assembly files by their names (without the suffix) as arguments to the command line.
 
