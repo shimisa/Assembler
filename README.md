@@ -7,33 +7,22 @@ This coursework project is a compailer of an imagination computer machine accord
 **The operations table:**  
 
 | Operarion name | Operation code (decimal) | Example |
-| --------------:|-------------------------:|--------:|
+| --------------|:-------------------------|--------|
 | mov |0| mov A, r1 |
 | cmp |1| cmp A, r1 |
 | add |2| add A, r0 |
 | sub |3| sub #3, r1 |
 | lea |4| lea HELLO, r1 |
-
 | clr |5| clr r2 |
-
 | not |6| not r2 |
-
 | inc |7| inc r2 |
-
 | dec |8| dec C |
-
 | jmp |7| jmp LINE |
-
 | bne |10| bne LINE |
-
 | red |11| red r1 |
-
 | prn |12| prn r1 |
-
 | jsr |13| jsr FUNC |
-
 | rts |14| rts |
-
 | stop |15| stop |
 
 
@@ -43,20 +32,17 @@ This coursework project is a compailer of an imagination computer machine accord
 	
 | Addresing number | Addresing method | Example |
 
-| --------------:|---------------:|---------------:|
+|:--------------|---------------|---------------|
 
 | 0 |immediate addresing| mov #-1,r2 |
-
 | 1 |direct addresing| x: .data 23 OR dec x |
-
 | 2 |indirect register addresing| inc *r1 OR mov *r1,**r2 |
-
 | 3 |direct register addresing| clr r1 OR  mov r1,*r2 |
 
 
 
 
- The program take care of the translating process and not for the linking and loading.
+ **The program take care of the translating process and not for the linking and loading.**
 
 
 
