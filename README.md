@@ -31,9 +31,7 @@ This coursework project is a compailer of an imagination computer machine accord
 
 	
 | Addresing number | Addresing method | Example |
-
 |:--------------|---------------|---------------|
-
 | 0 |immediate addresing| mov #-1,r2 |
 | 1 |direct addresing| x: .data 23 OR dec x |
 | 2 |indirect register addresing| inc *r1 OR mov *r1,**r2 |
