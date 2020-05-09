@@ -5,7 +5,7 @@ This coursework project is a compailer of an imagination computer machine accord
 
 <br/>
 
-#### The operations table: 
+### The operations table: 
 
 | Operarion name | Operation code (decimal) | Example |
 | --------------|:-------------------------|--------|
@@ -32,7 +32,7 @@ This coursework project is a compailer of an imagination computer machine accord
 
 
 
-#### The addresing method table:
+### The addresing method table:
 
 	
 | Addresing number | Addresing method | Example |
