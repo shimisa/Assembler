@@ -5,7 +5,7 @@ This coursework project is a compailer of an imagination computer machine accord
 
 <br/>
 
-**The operations table:**  
+#### The operations table: 
 
 | Operarion name | Operation code (decimal) | Example |
 | --------------|:-------------------------|--------|
@@ -28,10 +28,11 @@ This coursework project is a compailer of an imagination computer machine accord
 
 
 <br/>
+<br/>
 
 
 
-**The addresing method table:**
+#### The addresing method table:
 
 	
 | Addresing number | Addresing method | Example |
@@ -43,7 +44,7 @@ This coursework project is a compailer of an imagination computer machine accord
 
 
 <br/>
-
+<br/>
 
  **The program take care of the translating process and not for the linking and loading.**
 
@@ -65,7 +66,7 @@ The program get the assembly files by their names (without the suffix) as argume
 
 <br/>
 
-**The package contain:**
+#### The package contain:
 - makefile to compile the poject by gcc compiler.
 - run file named assembler.
 - The package divided to modules by topicts (main, analize, function1, etc.)
