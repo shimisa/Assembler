@@ -4,10 +4,10 @@
 This coursework project is a compailer of an imagination computer machine according to a define assembly language and it's addressing methods.
 
 
-*The operations table:*
+**The operations table:**  
 
 | Operarion name | Operation code (decimal) | Example |
-| --------------:|---------------:|---------------:|
+| --------------:|-------------------------:|--------:|
 
 | mov |0| mov A, r1 |
 
@@ -43,7 +43,7 @@ This coursework project is a compailer of an imagination computer machine accord
 
 
 
-*The addresing method table:*
+**The addresing method table:**
 
 	
 | Addresing number | Addresing method | Example |
