@@ -8,15 +8,10 @@ This coursework project is a compailer of an imagination computer machine accord
 
 | Operarion name | Operation code (decimal) | Example |
 | --------------:|-------------------------:|--------:|
-
 | mov |0| mov A, r1 |
-
 | cmp |1| cmp A, r1 |
-
 | add |2| add A, r0 |
-
 | sub |3| sub #3, r1 |
-
 | lea |4| lea HELLO, r1 |
 
 | clr |5| clr r2 |
