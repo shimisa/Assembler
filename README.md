@@ -1,7 +1,7 @@
 # assembler_compiler
 ### courework project - assembler compiler of defined assembly language
 
-This coursework project is a compailer of an imagination computer machine according to a define assembly language and it's addressing methods.
+This coursework project is a compiler of an imagination computer machine according to a define assembly language and it's addressing methods.
 
 <br/>
 
